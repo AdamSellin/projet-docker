@@ -23,7 +23,7 @@ docker-compose up -d
 ## Prérequis
 * Installer Docker
 * Aide pour l'installation de docker
- - installe docker sur window :: https://docs.docker.com/docker-for-windows/install/
- - installe docker sur mac : https://docs.docker.com/docker-for-mac/install/
- - install ubuntu :  https://docs.docker.com/engine/install/ubuntu/
+ - docker window : https://docs.docker.com/docker-for-windows/install/
+ - docker mac : https://docs.docker.com/docker-for-mac/install/
+ - docker ubuntu :  https://docs.docker.com/engine/install/ubuntu/
 
