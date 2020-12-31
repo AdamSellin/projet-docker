@@ -3,14 +3,13 @@
 	session_start() ;
 
 	//Connexion au serveur MySQL
-	$servername = "localhost";
+	$servername = "db";
 	$username = "root";
 	$password = "root123";
 	$database = "docker_contact";
-    $port = "3306";
 
 	try {
-		$linkpdo = new PDO("mysql:host=$servername;port=$port;dbname=$database", $username, $password);
+		$linkpdo = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
 	} catch(PDOException $e) {
 		echo "Connection failed: " . $e->getMessage();
 	}

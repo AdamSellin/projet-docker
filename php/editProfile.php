@@ -33,9 +33,9 @@
             
 		    <?php
 		    //Connexion au serveur MySQL
-            $servername = "localhost";
+            $servername = "db";
             $username = "root";
-            $password = "";
+            $password = "root123";
             $database = "docker_contact";
             
             try {

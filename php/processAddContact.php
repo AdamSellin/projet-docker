@@ -20,7 +20,7 @@
 		
 <?php
             //Connexion au serveur MySQL
-            $servername = "localhost";
+            $servername = "db";
             $username = "root";
             $password = "root123";
             $database = "docker_contact";
