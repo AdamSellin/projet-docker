@@ -14,3 +14,16 @@ Pour ce qui est de l’identification, l’utilisateur aura dû créer un compte
 * Trouver comment mettre en place des Dockerfile pour une ou les images
 * Ajouter le code de l'application
 * Vérifier que lorsqu'on ferme le container, le contenu de la base de données est enregistré
+
+## Installation
+```
+docker-compose up -d
+```
+
+## Prérequis
+* Installer Docker
+Aide pour l'installation de docker
+installe docker sur window :: https://docs.docker.com/docker-for-windows/install/
+installe docker sur mac : https://docs.docker.com/docker-for-mac/install/
+install ubuntu :  https://docs.docker.com/engine/install/ubuntu/
+
